@@ -23,6 +23,7 @@ def loadDataSet(fileName):
         # fltLine = [float(x) for x in curLine]
         # 将数据追加到dataMat
         fltLine = list(map(float,curLine))    # 映射所有的元素为 float（浮点数）类型
+        print(fltLine)
         dataSet.append(fltLine)
     # 返回dataMat
     return dataSet
